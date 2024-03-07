@@ -13,4 +13,4 @@ Needed Packages:
 - Btop
 - NeoVim
 - SwayLock
-
+- Thunar file manager
