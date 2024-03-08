@@ -35,7 +35,7 @@ All keybindings are binded from `~/.config/hypr/hyprland.conf`
 
 Apps started on startup can be edited from `~/.config/hypr/configs/Startup_Apps.conf`
 
-Other Hyprland configurations 
+Other Hyprland configurations are located within `~/.config/hypr/configs/UserSettings.conf`
 
 
 ### Screenshots / Previews:
