@@ -1,8 +1,7 @@
 # Hyprland - dotfiles
 
-Many scripts are from JaKooLits Dotfiles, so huge credit goes to them.
-My NeoVim config is from AstroNVim, although slightly altered.
-This is mostly for arch and distros based on it, and I cannot guarentee these configs to work with other distrobrutions to work.
+Many scripts are from JaKooLits Dotfiles, so huge credit goes to them for their incredible work. My Neovim config is from NVChad.
+This is mostly for arch and distros based on it, these configs should work on other distrobrutions although I cannot guarentee it.
 
 Needed Packages:
 - Rofi (Wayland fork)
