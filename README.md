@@ -14,7 +14,7 @@ This is mostly for arch and distros based on it, these configs should work on ot
 - NeoVim
 - SwayLock
 - Thunar file manager
-- Oh My Fish
+- Fish + Oh My Fish
 - NWG Displays
   
 Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
