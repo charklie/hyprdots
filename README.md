@@ -17,7 +17,7 @@ This is mostly for arch and distros based on it, these configs should work on ot
 - Oh My Fish
 - NWG Displays
   
-Hyprlock, Hyprcursor and Hypridle configs coming soon...
+Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 
 ### Post Installation
 - **Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
