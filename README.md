@@ -16,7 +16,10 @@ This is mostly for arch and distros based on it, these configs should work on ot
 - Thunar file manager
 - Fish + Oh My Fish
 - NWG Displays
-  
+- Python 3
+- Python Pip
+    - pywal (pip package)
+ 
 Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 
 ### Post Installation
@@ -31,6 +34,8 @@ Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 All keybindings are binded from `~/.config/hypr/hyprland.conf`
 
 Apps started on startup can be edited from `~/.config/hypr/configs/Startup_Apps.conf`
+
+Other Hyprland configurations 
 
 
 ### Screenshots / Previews:
