@@ -20,7 +20,7 @@ This is mostly for arch and distros based on it, these configs should work on ot
 Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 
 ### Post Installation
-- **Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
+- **Run** `sh $HOME/.config/scripts/afterinstallation.sh` **to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
 - Look through the help menu by holding down `MOD + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
 - Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.   
