@@ -20,5 +20,5 @@ Needed Packages:
 Hyprlock, Hyprcursor and Hypridle configs coming soon...
 
 Post Installation
-- Run ´sh $HOME/.config/scripts/afterinstallation.sh´ to make all scripts executable.
-- Look through the help menu by holding down ´MOD + H´
+- Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable.
+- Look through the help menu by holding down `MOD + H`
