@@ -20,5 +20,6 @@ Needed Packages:
 Hyprlock, Hyprcursor and Hypridle configs coming soon...
 
 Post Installation
-- Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable.
+- Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group. This is required for keybind and waybar functionality.
 - Look through the help menu by holding down `MOD + H`
+- Have fun!
