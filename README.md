@@ -23,7 +23,7 @@ Hyprlock, Hyprcursor and Hypridle configs coming soon...
 - **Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
 - Look through the help menu by holding down `MOD + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
-- Modify the apps listed on the waybar to your liking.   
+- Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.   
 - Have fun!
 
 ### Screenshots / Previews:
