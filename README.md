@@ -29,6 +29,7 @@ Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 
 ### Configuration
 All keybindings are binded from `~/.config/hypr/hyprland.conf`
+
 Apps started on startup can be edited from `~/.config/hypr/configs/Startup_Apps.conf`
 
 
