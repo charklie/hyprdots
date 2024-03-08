@@ -24,7 +24,13 @@ Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 - Look through the help menu by holding down `MOD + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
 - Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.   
+- Modify the `~/.config/hypr/configs/ENVariables.conf` to your graphics cards needs.
 - Have fun!
+
+### Configuration
+All keybindings are binded from `~/.config/hypr/hyprland.conf`
+Apps started on startup can be edited from `~/.config/hypr/configs/Startup_Apps.conf`
+
 
 ### Screenshots / Previews:
 ![image](https://github.com/charklie/hyprdots/assets/157241212/2afd74d6-7497-40ba-9110-eb88fb0cf454)
