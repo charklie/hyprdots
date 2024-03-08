@@ -16,5 +16,6 @@ Needed Packages:
 - SwayLock
 - Thunar file manager
 - Oh My Fish
-
+- NWG Displays
+  
 Hyprlock, Hyprcursor and Hypridle configs coming soon...
