@@ -57,9 +57,7 @@ Before you install, read the **whole** README.md.
 
 ### Packages that may break the configurations:
 - Dunst
-- Mako
- 
-Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
+- Mako 
 
 ### Pre Installation
 - Backup any configurations you plan on keeping.
@@ -88,3 +86,8 @@ Other Hyprland configurations are located within `~/.config/hypr/configs/UserSet
 ![image](https://github.com/charklie/hyprdots/assets/157241212/2afd74d6-7497-40ba-9110-eb88fb0cf454)
 ![image](https://github.com/charklie/hyprdots/assets/157241212/7e8776a8-5a11-407a-8ef2-ee840293a3f9)
 
+##### Todo
+-[ ] Hyprcursor
+-[ ] Hypridle
+-[ ] Hyprlock
+-[ ] Automatic install script
