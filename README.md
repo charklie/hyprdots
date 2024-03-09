@@ -1,6 +1,7 @@
 # Hyprland - dotfiles
+#### **ATTENTION:** Most (if not all) scripts and some configs are made my [JaKooLit](https://github.com/JaKooLit) **huge** credit goes to them for their amazing work.
 
-This prob wont work so i'd recommend just grabbing the configs you like and not installing all of it.
+At this time, this most likely will not work so I would recommend just grabbing the configs you like and not installing all of it. Expect it breaking.
 
 Many scripts and configs are from [JaKooLits Dotfiles](https://github.com/JaKooLit/Hyprland-Dots/), so huge credit goes to them for their incredible work and my Neovim config is from NVChad.
 
