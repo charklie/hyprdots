@@ -2,7 +2,7 @@
 
 This is mostly for arch and distros based on it, these configs should work on other distrobrutions although I cannot guarentee it.
 
-Many scripts are from JaKooLits Dotfiles, so huge credit goes to them for their incredible work and my Neovim config is from NVChad.
+Many scripts and configs are from [JaKooLits Dotfiles](https://github.com/JaKooLit/Hyprland-Dots/), so huge credit goes to them for their incredible work and my Neovim config is from NVChad.
 
 Before you install, read the **whole** README.md.
 
