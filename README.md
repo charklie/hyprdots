@@ -67,7 +67,7 @@ Before you install, read the **whole** README.md.
 - Restart your computer to ensure no apps are interfering
 
 ### Installation
-- Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/.config/ --depth 1`, simple as that.
+- Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/ --depth 1`, simple as that.
 - **Hold down** `Super + Enter` **and run** `sh $HOME/.config/scripts/afterinstallation.sh` **to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
 - Restart your computer.
 
@@ -79,6 +79,8 @@ Before you install, read the **whole** README.md.
 - Have fun!
 
 ### Configuration
+Many files and configurations are interconnected, this means that if you rename a folder or file, it may break something. If you are planning to remove scripts, folders, files, etc. proceed with caution.
+
 All keybindings are binded from `~/.config/hypr/hyprland.conf`
 
 Apps started on startup can be edited from `~/.config/hypr/configs/Startup_Apps.conf`
