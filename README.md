@@ -1,7 +1,7 @@
 # Hyprland - dotfiles
-**ATTENTION:** Most (if not all) scripts and some configs are made by [JaKooLit](https://github.com/JaKooLit) **huge** credit goes to them for their amazing work.
+**ATTENTION:** Most (if not all) scripts and some configs are made by [JaKooLit](https://github.com/JaKooLit) **huge** credit goes to them for their amazing work. I'd seriously recommend checking them out.
 
-At this time, this most likely will not work so I would recommend just grabbing the configs you like and not installing all of it. Expect it breaking.
+At this time, this most likely will not work so I would suggest just grabbing the configs you like and not installing all of it. Expect it to break.
 
 Before you install, read the **whole** README.md.
 
