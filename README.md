@@ -3,8 +3,6 @@
 
 At this time, this most likely will not work so I would recommend just grabbing the configs you like and not installing all of it. Expect it breaking.
 
-Many scripts and configs are from [JaKooLits Dotfiles](https://github.com/JaKooLit/Hyprland-Dots/), so huge credit goes to them for their incredible work and my Neovim config is from NVChad.
-
 Before you install, read the **whole** README.md.
 
 ### Needed Packages:
