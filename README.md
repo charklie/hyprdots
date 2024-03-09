@@ -19,6 +19,7 @@ This is mostly for arch and distros based on it, these configs should work on ot
 - Python 3
 - Python Pip
     - pywal (pip package)
+- Eza
  
 Automation, Hyprlock, Hyprcursor, Hypridle and more coming soon...
 
