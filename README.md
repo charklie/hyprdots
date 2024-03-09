@@ -63,6 +63,8 @@ Before you install, read the **whole** README.md.
 ### Pre Installation
 - Backup any configurations you plan on keeping.
 - If you have wallpapers you want to use, move them to `~/Pictures/wallpapers/`
+- Install packages
+- Restart your computer to ensure no apps are interfering
 
 ### Installation
 - Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/.config/ --depth 1`, simple as that.
