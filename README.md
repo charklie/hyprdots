@@ -7,6 +7,9 @@ Many scripts are from JaKooLits Dotfiles, so huge credit goes to them for their 
 Before you install, read the **whole** README.md.
 
 ### Needed Packages:
+- Starship Prompt
+- Zoxide
+- Thefuck
 - Git
 - Curl
 - Grim
