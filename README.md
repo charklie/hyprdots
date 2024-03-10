@@ -93,9 +93,11 @@ Other Hyprland configurations are located within `~/.config/hypr/configs/UserSet
 As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 
 ### Screenshots / Previews:
-![image](https://github.com/charklie/hyprdots/assets/157241212/2afd74d6-7497-40ba-9110-eb88fb0cf454)
-![image](https://github.com/charklie/hyprdots/assets/157241212/7e8776a8-5a11-407a-8ef2-ee840293a3f9)
-
+![image](https://github.com/charklie/hyprdots/assets/157241212/b1b31d1a-b5cc-445f-9d38-369fe4b1f7c5)
+![image](https://github.com/charklie/hyprdots/assets/157241212/d720ba07-aa15-4dd7-8816-734ac938eeec)
+![image](https://github.com/charklie/hyprdots/assets/157241212/9eaca258-5162-4cc6-a726-24d28fe574a4)
+![image](https://github.com/charklie/hyprdots/assets/157241212/30ca3228-3eb8-4c21-8705-b38801445611)
+![image](https://github.com/charklie/hyprdots/assets/157241212/72c1709c-abdd-4075-9291-361f00c6fdb2)
 ##### Todo
 - [ ] Hyprcursor
 - [ ] Hypridle
