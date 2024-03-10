@@ -19,6 +19,3 @@ else
     sudo usermod -aG input $username
     echo "User $username has been added to the input group."
 fi
-
-# Create symlink to this folder.
-ln -s ~/.config/scripts/ ~/.config/hypr
