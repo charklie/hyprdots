@@ -9,7 +9,7 @@
     "ipc": true,
 
     // Code below makes bar float from edges
-    /*"margin-top": 8,
+   /* "margin-top": 8,
     "margin-left": 10,
     "margin-right":10,
     "margin-down": 12,*/
@@ -17,25 +17,14 @@
     "modules-left": [
       "custom/menu", 
       "custom/separator#line",
-      "custom/app#discord",
-      "custom/app#steam",
-      "custom/app#term",
-      "custom/app#prism",
-      "custom/app#obs",
-      "custom/app#bluetooth",
-      "custom/app#brave",
-      "custom/app#vscode",
+      "hyprland/workspaces", 
       "custom/separator#line",
-      "cpu",
-      "memory"
-      //"wlr/taskbar"
-      //"custom/separator#line",
-      //"custom/playerctl"
-      
+      "wlr/taskbar"    
     ],
 
     "modules-center": [ 
-      "hyprland/workspaces"
+      "clock",
+      "custom/weather"
     ], 
 
     "modules-right": [
@@ -44,16 +33,17 @@
       "pulseaudio",	  
       "pulseaudio#microphone", 
       "custom/separator#line",
-      "clock",
-      //"custom/separator#line",
-      //"custom/weather",
+      "custom/swaync",
       "custom/separator#line",
       "custom/lock",
-      //"custom/separator#line",
-      //"custom/swaync",
-      "custom/separator#line",
       "custom/power"
     ],
+  
+    "custom/app#doomemacs": {
+      "format": "{}  ",
+      "tooltip": false,
+      "on-click": "~/.config/emacs/bin/doom run"
+    },
 
     "custom/app#prism": {
       "format": "{} 󰍳 ",
@@ -181,7 +171,8 @@
          
     "clock": {
         "interval": 1,
-        "format": " {:%H:%M:%S}",
+        //"format": " {:%H:%M:%S}",
+        "format": "{: %R   %d/%m}",
         "format-alt": " {:%H:%M   %Y, %d %B, %A}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
@@ -447,7 +438,7 @@
     },
         
     "custom/menu": {
-        "format": "{}",
+        "format": "󰣇{}",
         "exec": "echo ; echo 󱓟 app launcher",
         "interval" : 86400, // once every day
         "tooltip": true,
@@ -469,8 +460,7 @@
         "on-click-middle": "playerctl play-pause",
         "on-click": "playerctl previous",
         "on-click-right": "playerctl next",
-        "scroll-step": 5.0
-    },
+        "scroll-step": 5.0,
         "on-click-right": "~/.config/hypr/scripts/WaybarLayout.sh"
     },
 
