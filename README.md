@@ -98,7 +98,8 @@ Before you install, read the **whole** README.md.
 - Check if Rofi theme is working; open Rofi with `Super`. If Rofi has that disgusting yellow color, search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
 - Look through the help menu by holding down `Super + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
-- Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.   
+- Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.
+- Modify city in `~/.config/waybar/scripts/weather.py` for waybar weather module.
 - Modify the `~/.config/hypr/configs/ENVariables.conf` to your graphics cards needs.
 - Have fun!
 
