@@ -6,7 +6,7 @@ At this time, this most likely will not work so I would suggest just grabbing th
 Before you install, read the **whole** README.md.
 
 
-<a id="packages">### Needed Packages:</a>
+<a id="packages"> ### Needed Packages: </a>
 - Starship Prompt
 - Zoxide
 - Thefuck
