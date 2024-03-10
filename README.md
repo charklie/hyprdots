@@ -68,13 +68,14 @@ Before you install, read the **whole** README.md.
 - Install packages
 - Restart your computer to ensure no apps are interfering
 
-### Installation
+### Full Installation
 - Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/ --depth 1`, simple as that.
 - **Hold down** `Super + Enter` **and run** `sh $HOME/.config/scripts/afterinstallation.sh` **to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
 - Restart your computer.
 
 ### Post Installation
-- Look through the help menu by holding down `MOD + H`
+- Open Rofi with `Super` and search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
+- Look through the help menu by holding down `Super + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
 - Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.   
 - Modify the `~/.config/hypr/configs/ENVariables.conf` to your graphics cards needs.
