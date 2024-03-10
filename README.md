@@ -98,6 +98,10 @@ As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 ![image](https://github.com/charklie/hyprdots/assets/157241212/9eaca258-5162-4cc6-a726-24d28fe574a4)
 ![image](https://github.com/charklie/hyprdots/assets/157241212/30ca3228-3eb8-4c21-8705-b38801445611)
 ![image](https://github.com/charklie/hyprdots/assets/157241212/72c1709c-abdd-4075-9291-361f00c6fdb2)
+![image](https://github.com/charklie/hyprdots/assets/157241212/906325c0-2cf7-49e9-aa5b-f4ede904e3d2)
+![image](https://github.com/charklie/hyprdots/assets/157241212/a0e6aeda-a868-42a8-b09a-368fd187aec0)
+![image](https://github.com/charklie/hyprdots/assets/157241212/05c83ab0-f11f-4db3-bdb7-201928b50382)
+
 ##### Todo
 - [ ] Hyprcursor
 - [ ] Hypridle
