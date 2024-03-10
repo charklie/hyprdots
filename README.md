@@ -74,7 +74,7 @@ Before you install, read the **whole** README.md.
 - Restart your computer.
 
 ### Post Installation
-- Open Rofi with `Super` and search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
+- Check if Rofi theme is working; open Rofi with `Super`. If Rofi has that disgusting yellow color, search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
 - Look through the help menu by holding down `Super + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
 - Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.   
