@@ -5,8 +5,8 @@ At this time, this most likely will not work so I would suggest just grabbing th
 
 Before you install, read the **whole** README.md.
 
-### Needed Packages:
-<a id="packages"></a>
+
+<a id="packages">### Needed Packages:</a>
 - Starship Prompt
 - Zoxide
 - Thefuck
