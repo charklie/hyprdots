@@ -5,8 +5,8 @@ At this time, this most likely will not work so I would suggest just grabbing th
 
 Before you install, read the **whole** README.md.
 
+### Needed Packages:
 
-<a id="packages"> ### Needed Packages: </a>
 - Starship Prompt
 - Zoxide
 - Thefuck
@@ -47,12 +47,12 @@ Before you install, read the **whole** README.md.
 ###### Tip: to install pip packages, use the flag `--break-system-packages` to bypass you needing to install them with pacman instead.
 
 ### Needed Packages (Laptops only):
-<a id="laptops"></a>
+
 - Mousepad
 - Brightnessctl
 
 ### Needed Fonts:
-<a id="fonts"></a>
+
 - adobe-source-code-pro-fonts 
 - noto-fonts-emoji
 - otf-font-awesome 
@@ -62,25 +62,25 @@ Before you install, read the **whole** README.md.
 - ttf-jetbrains-mono-nerd
 
 ### Packages that may break the configurations:
-<a id="breakerpackages"></a>
+
 - Dunst
 - Mako
 
 ### Pre Installation
-<a id="preinstallation"></a>
+
 - Backup any configurations you plan on keeping.
 - If you have wallpapers you want to use, move them to `~/Pictures/wallpapers/`
 - Install packages
 - Restart your computer to ensure no apps are interfering
 
 ### Full Installation 
-<a id="installation"></a>
+
 - Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/ --depth 1`, simple as that.
 - **Hold down** `Super + Enter` **and run** `sh $HOME/.config/scripts/afterinstallation.sh` **to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
 - Restart your computer.
 
 ### Post Installation
-<a id="afterinstallation"></a>
+
 - Check if Rofi theme is working; open Rofi with `Super`. If Rofi has that disgusting yellow color, search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
 - Look through the help menu by holding down `Super + H`
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
@@ -89,7 +89,7 @@ Before you install, read the **whole** README.md.
 - Have fun!
 
 ### Configuration 
-<a id="configuration"></a>
+
 Many files and configurations are interconnected, this means that if you rename a folder or file, it may break something. If you are planning to remove scripts, folders, files, etc. proceed with caution.
 
 All keybindings are binded from `~/.config/hypr/hyprland.conf`
@@ -101,7 +101,7 @@ Other Hyprland configurations are located within `~/.config/hypr/configs/UserSet
 As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 
 ### Screenshots / Previews:
-<a id="screenshots"></a>
+
 ![image](https://github.com/charklie/hyprdots/assets/157241212/b1b31d1a-b5cc-445f-9d38-369fe4b1f7c5)
 ![image](https://github.com/charklie/hyprdots/assets/157241212/d720ba07-aa15-4dd7-8816-734ac938eeec)
 ![image](https://github.com/charklie/hyprdots/assets/157241212/9eaca258-5162-4cc6-a726-24d28fe574a4)
