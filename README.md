@@ -7,11 +7,17 @@ Before you install, read the **whole** README.md.
 
 ##### Jumps:
 [Needed Packages](#needed-packages)
+
 [Pre Installation](#preinstallation)
+
 [Installation](#installation)
+
 [Post Installation](#postinstallation)
+
 [Configuration](#configuration)
+
 [Screenshots](#screenshots-previews)
+
 
 ### Needed Packages:
 
