@@ -5,20 +5,6 @@ At this time, this most likely will not work so I would suggest just grabbing th
 
 Before you install, read the **whole** README.md.
 
-### Jumps:
-[Needed Packages](#needed-packages)
-
-[Pre Installation](#preinstallation)
-
-[Installation](#installation)
-
-[Post Installation](#postinstallation)
-
-[Configuration](#configuration)
-
-[Screenshots](#screenshots-previews)
-
-
 ### Needed Packages:
 
 - Starship Prompt
