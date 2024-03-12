@@ -39,6 +39,11 @@
       "custom/power"
     ],
   
+	"custom/app#neovim": {
+			"format": "{}  ",
+			"tooltip": false,
+			"on-click": "kitty -e 'nvim'" // replace "kitty" with alacritty, foot, wezterm, etc.
+		},
     "custom/app#doomemacs": {
       "format": "{}  ",
       "tooltip": false,
