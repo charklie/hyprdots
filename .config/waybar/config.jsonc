@@ -19,7 +19,7 @@
       "custom/separator#line",
       "hyprland/workspaces", 
       "custom/separator#line",
-      "wlr/taskbar"    
+      "wlr/taskbar"
     ],
 
     "modules-center": [ 
@@ -38,12 +38,13 @@
       "custom/lock",
       "custom/power"
     ],
-  
-	"custom/app#neovim": {
+	
+	 "custom/app#neovim": {
 			"format": "{}  ",
 			"tooltip": false,
-			"on-click": "kitty -e 'nvim'" // replace "kitty" with alacritty, foot, wezterm, etc.
+			"on-click": "kitty -e 'nvim'"
 		},
+  
     "custom/app#doomemacs": {
       "format": "{}  ",
       "tooltip": false,
@@ -423,7 +424,7 @@
     "custom/keybinds": {
         "format":"󰺁 HINT!",
         "exec": "echo ; echo  Key Hints SUPER H",
-        "on-click": "~/.config/scripts/KeyHints.sh", // this might be useful if youre just installing this
+        "on-click": "~/.config/scripts/KeyHints.sh", // this might be useful if you're just installing this
         "tooltip": true
     },
 

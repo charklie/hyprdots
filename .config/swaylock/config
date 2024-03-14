@@ -12,6 +12,8 @@ datestr=%d %B, %a
 # Add current display as background
 #screenshots
 
+# Add an image as a background. You need to disable screenshots above
+image=$HOME/.config/rofi/.current_wallpaper
 
 # Effect for background
 # NOTE: if you choose image as wallpaper, you may want to comment (#) these effects 

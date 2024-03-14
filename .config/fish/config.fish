@@ -141,6 +141,15 @@ alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
 
+# DOOM Emacs
+alias doom="~/.config/emacs/bin/doom run"
+alias emacs="~/.config/emacs/bin/doom run"
+
+# Prompts and others
 zoxide init fish | source
 starship init fish | source
 thefuck --alias | source
+
+# Charlie Made Scripts
+alias mountdrives="sudo ~/.config/scripts/mountdrives.sh"
+alias gitty="python3 ~/Documents/Programming/Apps/gitty.py"
