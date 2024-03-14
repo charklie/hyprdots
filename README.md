@@ -79,7 +79,7 @@ Before you install, read the **whole** README.md.
 - Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/.dotfiles/ --depth 1`
 - CD into the directory: `cd ~/.dotfiles/`
 - If you want to install *all* configs: `stow .`
-- If you want to install a specific config: `stow .config/*<config you're installing>*`
+- If you want to install a specific config: `stow .config/<config you're installing>`
 - Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group. **This is required for keybind and waybar functionality.**
 - Restart your computer.
 
