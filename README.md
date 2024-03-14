@@ -65,9 +65,11 @@ Screenshots available at the bottom.
 - ttf-jetbrains-mono-nerd
 
 ### Packages that may break the configurations:
-
 - Dunst
 - Mako
+
+### Recommended, but not needed:
+- Tokyo night theme to match with all my configs, install from: https://www.gnome-look.org/p/1681315. Choose freely which one, although I recommend "BL-LB".
 
 ### Pre Installation
 
