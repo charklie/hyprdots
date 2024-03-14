@@ -43,6 +43,7 @@ Before you install, read the **whole** README.md.
 - qt5ct
 - qt6ct
 - qt6-svg
+- Stow
 
 ###### Tip: to install pip packages, use the flag `--break-system-packages` to bypass you needing to install them with pacman instead.
 
@@ -68,21 +69,26 @@ Before you install, read the **whole** README.md.
 
 ### Pre Installation
 
-- Backup any configurations you plan on keeping.
+- Backup any configurations you plan on keeping. `mv ~/.config/<config> ~/.config/<config>.bkp`
 - If you have wallpapers you want to use, move them to `~/Pictures/wallpapers/`
 - Install packages
-- Restart your computer to ensure no apps are interfering
+- Restart your computer to ensure no apps are interfering with installation
 
 ### Full Installation 
 
-- Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/ --depth 1`, simple as that.
-- **Hold down** `Super + Enter` **and run** `sh $HOME/.config/scripts/afterinstallation.sh` **to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
+- Clone the repository with `git clone https://github.com/charklie/hyprdots.git ~/.dotfiles/ --depth 1`
+- CD into the directory: `~/.dotfiles/`
+
+- If you want to install *all* configs: `stow .`
+- If you want to install a specific config: `stow .config/<config you're installing>`
+
+- Run `sh $HOME/.config/scripts/afterinstallation.sh` **to make all scripts executable and add yourself to the input group.** This is required for keybind and waybar functionality.
 - Restart your computer.
 
 ### Post Installation
 
-- Check if Rofi theme is working; open Rofi with `Super`. If Rofi has that disgusting yellow color, search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
 - Look through the help menu by holding down `Super + H`
+- Check if Rofi theme is working; open Rofi with `Super`. If Rofi has that disgusting yellow color, search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Super` and then `Alt + A`.
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
 - Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.
 - Modify city in `~/.config/waybar/scripts/weather.py` for waybar weather module.
@@ -116,4 +122,5 @@ As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 - [ ] Hyprcursor
 - [ ] Hypridle
 - [ ] Hyprlock
-- [ ] Automatic install script
+- [ ] ~~ Automatic install script ~~
+- [X] Switch to stow for easier installation
