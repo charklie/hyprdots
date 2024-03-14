@@ -5,6 +5,8 @@ At this time, this most likely will not work so I would suggest just grabbing th
 
 Before you install, read the **whole** README.md.
 
+Screenshots available at the bottom.
+
 ### Needed Packages:
 
 - Starship Prompt
@@ -107,18 +109,17 @@ As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 
 ### Screenshots / Previews:
 
-![image](https://github.com/charklie/hyprdots/assets/157241212/b1b31d1a-b5cc-445f-9d38-369fe4b1f7c5)
-![image](https://github.com/charklie/hyprdots/assets/157241212/d720ba07-aa15-4dd7-8816-734ac938eeec)
-![image](https://github.com/charklie/hyprdots/assets/157241212/9eaca258-5162-4cc6-a726-24d28fe574a4)
-![image](https://github.com/charklie/hyprdots/assets/157241212/30ca3228-3eb8-4c21-8705-b38801445611)
-![image](https://github.com/charklie/hyprdots/assets/157241212/72c1709c-abdd-4075-9291-361f00c6fdb2)
-![image](https://github.com/charklie/hyprdots/assets/157241212/906325c0-2cf7-49e9-aa5b-f4ede904e3d2)
-![image](https://github.com/charklie/hyprdots/assets/157241212/a0e6aeda-a868-42a8-b09a-368fd187aec0)
-![image](https://github.com/charklie/hyprdots/assets/157241212/05c83ab0-f11f-4db3-bdb7-201928b50382)
+![image](https://github.com/charklie/hyprdots/assets/157241212/628f0f7e-8dac-492f-8ea1-044d0cb69607)
+![image](https://github.com/charklie/hyprdots/assets/157241212/4f55d0a8-4aa7-4c49-82e5-0c718eea57e3)
+![image](https://github.com/charklie/hyprdots/assets/157241212/9ebccd44-dec1-449d-8798-89cb8e64444b)
+![image](https://github.com/charklie/hyprdots/assets/157241212/f961149e-fa59-47af-8914-c60d0e3e3f3d)
+![image](https://github.com/charklie/hyprdots/assets/157241212/87c6b520-9298-4811-bb5b-74939bf97409)
+![image](https://github.com/charklie/hyprdots/assets/157241212/43f9b4c0-1b01-4d0c-8ecb-5eee130a4d80)
+![image](https://github.com/charklie/hyprdots/assets/157241212/69ffa94a-a8a4-45d7-9182-b3be3ae52da4)
 
 ##### Todo (#todo)
 - [ ] Hyprcursor
 - [ ] Hypridle
 - [ ] Hyprlock
-- [ ] ~~Automatic install script~~
+- [ ] ~~ Automatic install script ~~
 - [X] Switch to stow for easier installation
