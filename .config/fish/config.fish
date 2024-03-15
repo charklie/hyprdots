@@ -149,7 +149,3 @@ alias emacs="~/.config/emacs/bin/doom run"
 zoxide init fish | source
 starship init fish | source
 thefuck --alias | source
-
-# Charlie Made Scripts
-alias mountdrives="sudo ~/.config/scripts/mountdrives.sh"
-alias gitty="python3 ~/Documents/Programming/Apps/gitty.py"

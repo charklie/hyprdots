@@ -1,4 +1,4 @@
-set $wallpaper /home/chararch/Pictures/wallpapers/Courtside-Sunset.png
+set $wallpaper /~/Pictures/wallpapers/Courtside-Sunset.png
 
 set $background #0a0909
 set $foreground #b5aeb7

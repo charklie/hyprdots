@@ -1,5 +1,5 @@
 " Special
-let wallpaper  = "/home/chararch/Pictures/wallpapers/Courtside-Sunset.png"
+let wallpaper  = "~/Pictures/wallpapers/Courtside-Sunset.png"
 let background = "#0a0909"
 let foreground = "#b5aeb7"
 let cursor     = "#b5aeb7"
