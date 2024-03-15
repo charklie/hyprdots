@@ -28,7 +28,7 @@
 
 configuration {
   show-icons: true;
-  modi: "drun, run";
+  modi: "drun,run";
 }
 
 element-icon, element-text, scrollbar {
