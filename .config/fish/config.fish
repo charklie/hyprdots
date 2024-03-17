@@ -149,3 +149,4 @@ alias emacs="~/.config/emacs/bin/doom run"
 zoxide init fish | source
 starship init fish | source
 thefuck --alias | source
+fish_add_path /home/chararch/.spicetify

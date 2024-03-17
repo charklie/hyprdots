@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/Pictures/wallpapers/lakemouintans.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09131a",
+        "foreground": "#cce7e2",
+        "cursor": "#cce7e2"
+    },
+    "colors": {
+        "color0": "#09131a",
+        "color1": "#577099",
+        "color2": "#1A86B4",
+        "color3": "#41A4C1",
+        "color4": "#70C8D5",
+        "color5": "#9FA5A4",
+        "color6": "#8FCFD6",
+        "color7": "#cce7e2",
+        "color8": "#8ea19e",
+        "color9": "#577099",
+        "color10": "#1A86B4",
+        "color11": "#41A4C1",
+        "color12": "#70C8D5",
+        "color13": "#9FA5A4",
+        "color14": "#8FCFD6",
+        "color15": "#cce7e2"
+    }
+}
