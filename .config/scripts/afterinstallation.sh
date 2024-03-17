@@ -22,3 +22,4 @@ fi
 
 # Create symlink to this folder.
 ln -s ~/.config/scripts/ ~/.config/hypr
+

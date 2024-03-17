@@ -28,7 +28,7 @@ Screenshots available at the bottom.
 - NeoVim
 - SwayLock
 - Thunar file manager
-- Fish + Oh My Fish
+- Fish + Starship prompt
 - NWG Displays
 - Python 3
 - Python Pip
@@ -67,6 +67,7 @@ Screenshots available at the bottom.
 ### Packages that may break the configurations:
 - Dunst
 - Mako
+- Oh my fish
 
 ### Recommended, but not needed:
 - Tokyo night theme to match with all my configs, install from: https://www.gnome-look.org/p/1681315. Choose freely which one, although I recommend "BL-LB".
