@@ -71,6 +71,7 @@ Screenshots available at the bottom.
 
 ### Recommended, but not needed:
 - Tokyo night theme to match with all my configs, install from: https://www.gnome-look.org/p/1681315. Choose freely which one, although I recommend "BL-LB".
+- Brave browser, excellent browser thats both aestetically pleasing and safe from trackers and ads.
 
 ### Pre Installation
 
@@ -97,6 +98,7 @@ Screenshots available at the bottom.
 - Check if Rofi theme is working; open Rofi with `Super`. If Rofi has that disgusting yellow color, search for "Rofi Theme Selector". Open it and scroll to the bottom where you'll find "simple-dark". Click `Enter` and then `Alt + A`.
 - Look through the fish config (if you are planning on staying with fish shell) in `~/.config/fish/config.fish` for aliases you may not be familiar with.
 - Modify the apps listed on the waybar, Neovim theme, wallpaper, etc. all to your liking.
+- Set preferred browser at the top of `~/.config/hypr/hyprland.conf`
 - Modify city in `~/.config/waybar/scripts/weather.py` for waybar weather module.
 - Modify the `~/.config/hypr/configs/ENVariables.conf` to your graphics cards needs.
 - Have fun!
