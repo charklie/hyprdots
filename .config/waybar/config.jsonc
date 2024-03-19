@@ -177,9 +177,9 @@
          
     "clock": {
         "interval": 1,
-       // "format": " {:%H:%M:%S}",
-       //"format": "{: %R   %d/%m}",
-        "format": " {:%H:%M   %D}",
+        //"format": " {:%H:%M:%S}",
+       // "format": "{: %R   %d/%m}",
+        "format": " {:%H:%M   %d/%m}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
           "mode"          : "year",
