@@ -20,6 +20,7 @@ Screenshots available at the bottom.
 - Wget
 - Rofi (Wayland fork)
 - Hyprland
+- Hyprlock
 - SwayNC
 - Waybar
 - Kitty
@@ -128,6 +129,6 @@ As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 ##### Todo (#todo)
 - [ ] Hyprcursor
 - [ ] Hypridle
-- [ ] Hyprlock
+- [X] Hyprlock
 - [ ] ~~Automatic install script~~
 - [X] Switch to stow for easier installation

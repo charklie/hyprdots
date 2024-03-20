@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/Pictures/wallpapers/windowsXp.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#181f0c",
+        "foreground": "#cfdbf0",
+        "cursor": "#cfdbf0"
+    },
+    "colors": {
+        "color0": "#181f0c",
+        "color1": "#316BEA",
+        "color2": "#477AED",
+        "color3": "#748CA6",
+        "color4": "#6593F0",
+        "color5": "#8FA0AB",
+        "color6": "#92B0F0",
+        "color7": "#cfdbf0",
+        "color8": "#9099a8",
+        "color9": "#316BEA",
+        "color10": "#477AED",
+        "color11": "#748CA6",
+        "color12": "#6593F0",
+        "color13": "#8FA0AB",
+        "color14": "#92B0F0",
+        "color15": "#cfdbf0"
+    }
+}
