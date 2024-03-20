@@ -1,8 +1,8 @@
-@define-color critical #ff0000; /* critical color */
-@define-color warning #f3f809;  /* warning color */
-@define-color fgcolor #ffffff;  /* foreground color */
-@define-color bgcolor #222436;  /* background color */
-@define-color bgcolor #222436;  /* background color */
+@define-color critical #ff0000;
+@define-color warning #f3f809; 
+@define-color fgcolor #ffffff;
+@define-color bgcolor #222436;
+@define-color bgcolor #222436;
 @define-color alert   #df3320;
 
 @define-color accent1 #ff7a93;
@@ -11,7 +11,7 @@
 @define-color accent4 #ee9ff9;
 @define-color accent5 #7da6ff;
 @define-color accent6 #0db9d7;
-@define-color waybarclr rgba(200,200,200,0.015); /*#131313*/
+@define-color waybarclr rgba(200,200,200,0.015);
 
 * {
     font-family: "JetBrainsMono Nerd Font";
@@ -22,7 +22,7 @@
 }
 
 window#waybar {
-    background-color: @waybarclr; /*color of waybar*/
+    background-color: var(--waybarclr); /*color of waybar*/
     color: rgba(217, 216, 216, 1); /* text color */
     transition-property: none;
     transition-duration: .5s;
@@ -164,14 +164,6 @@ tooltip label{
 	padding-bottom: 3px;
 	padding-right: 6px;
 	padding-left: 6px;
-}
-
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
-}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
 }
 
 #clock {
