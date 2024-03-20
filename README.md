@@ -119,5 +119,4 @@ As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
 - [ ] Hyprcursor
 - [ ] Hypridle
 - [X] Hyprlock
-- [ ] ~~Automatic install script~~
 - [X] Switch to stow for easier installation
