@@ -141,6 +141,10 @@ alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
 
+# Helix
+alias hx="helix"
+alias heli="helix"
+alias h="helix"
 # DOOM Emacs
 alias doom="~/.config/emacs/bin/doom run"
 alias emacs="~/.config/emacs/bin/doom run"

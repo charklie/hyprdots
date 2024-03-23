@@ -22,7 +22,7 @@
 }
 
 window#waybar {
-    background-color: var(--waybarclr); /*color of waybar*/
+    background-color: @waybarclr; /*color of waybar*/
     color: rgba(217, 216, 216, 1); /* text color */
     transition-property: none;
     transition-duration: .5s;

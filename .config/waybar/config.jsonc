@@ -13,8 +13,7 @@
       "custom/separator#line",
       "hyprland/workspaces", 
       "custom/separator#line",
-      "wlr/taskbar",
-      "custom/spotify"
+      "wlr/taskbar"
     ],
 
     "modules-center": [ 
@@ -28,7 +27,7 @@
       "pulseaudio",	  
       "pulseaudio#microphone", 
       "custom/separator#line",
-      "custom/swaync",
+      "mpris",
       "custom/separator#line",
       "custom/lock",
       "custom/power"
@@ -38,6 +37,12 @@
       "format": "{}  ",
       "tooltip": false,
       "on-click": "kitty -e 'nvim'"
+    },
+
+    "custom/app#helix": {
+      "format": "{}",
+      "tooltip": false,
+      "on-click": "kitty -e helix"
     },
 
     "custom/app#doomemacs": {
