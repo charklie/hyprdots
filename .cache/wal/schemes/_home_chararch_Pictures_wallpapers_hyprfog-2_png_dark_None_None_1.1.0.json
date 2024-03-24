@@ -1,7 +1,6 @@
 {
     "wallpaper": "/home/chararch/Pictures/wallpapers/hyprfog-2.png",
     "alpha": "100",
-
     "special": {
         "background": "#0A121B",
         "foreground": "#77e0e0",

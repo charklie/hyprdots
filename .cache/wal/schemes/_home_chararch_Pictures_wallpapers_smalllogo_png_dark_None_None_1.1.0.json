@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/Pictures/wallpapers/smalllogo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0e0e",
+        "foreground": "#77e4e0",
+        "cursor": "#77e4e0"
+    },
+    "colors": {
+        "color0": "#0e0e0e",
+        "color1": "#717171",
+        "color2": "#0B668E",
+        "color3": "#079EA3",
+        "color4": "#02CCBD",
+        "color5": "#02A2DA",
+        "color6": "#01D0CA",
+        "color7": "#77e4e0",
+        "color8": "#539f9c",
+        "color9": "#717171",
+        "color10": "#0B668E",
+        "color11": "#079EA3",
+        "color12": "#02CCBD",
+        "color13": "#02A2DA",
+        "color14": "#01D0CA",
+        "color15": "#77e4e0"
+    }
+}

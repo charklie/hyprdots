@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/Pictures/wallpapers/Group_30.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b1e",
+        "foreground": "#bfd3e2",
+        "cursor": "#bfd3e2"
+    },
+    "colors": {
+        "color0": "#0a0b1e",
+        "color1": "#5D689E",
+        "color2": "#9A7188",
+        "color3": "#18E7BE",
+        "color4": "#568FD0",
+        "color5": "#6EA7D3",
+        "color6": "#CFB4B6",
+        "color7": "#bfd3e2",
+        "color8": "#85939e",
+        "color9": "#5D689E",
+        "color10": "#9A7188",
+        "color11": "#18E7BE",
+        "color12": "#568FD0",
+        "color13": "#6EA7D3",
+        "color14": "#CFB4B6",
+        "color15": "#bfd3e2"
+    }
+}
