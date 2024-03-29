@@ -11,7 +11,7 @@
 @define-color accent4 #ee9ff9;
 @define-color accent5 #7da6ff;
 @define-color accent6 #0db9d7;
-@define-color waybarclr rgba(75,75,75,0.1);
+@define-color waybarclr rgba(50,50,100,0.25);
 
 * {
     font-family: "JetBrainsMono Nerd Font";

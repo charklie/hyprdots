@@ -1,1 +1,1 @@
-~/.local/share/omf/themes/pie/fish_prompt.fish
+/home/chararch/.local/share/omf/themes/slacker/fish_prompt.fish

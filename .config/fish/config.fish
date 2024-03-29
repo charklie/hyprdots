@@ -144,14 +144,14 @@ alias vi="nvim"
 alias v="nvim"
 
 # Helix
-alias hx="helix"
-alias heli="helix"
 alias h="helix"
+alias hxf="helix \$(fzf)"
+
 # DOOM Emacs
 alias doom="~/.config/emacs/bin/doom run"
 alias emacs="~/.config/emacs/bin/doom run"
 
 # Prompts and others
 zoxide init fish | source
-starship init fish | source
+# starship init fish | source
 thefuck --alias | source

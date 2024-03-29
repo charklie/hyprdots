@@ -21,7 +21,7 @@
       "battery",
       "memory",
       "cpu",
-      "network#speed"
+      "network"
     ],
 
     "modules-center": [ 
@@ -34,6 +34,7 @@
       "pulseaudio#microphone", 
       "custom/weather",
       "clock",
+      "date"
     ],
 
     "custom/app#neovim": {
@@ -217,7 +218,7 @@
         "on-click-forward": "tz_up",
         "on-click-backward": "tz_down",
         "on-scroll-up": "shift_up",
-        "on-scroll-down": "shift_down"
+        "on-scroll-down": "shift_down",
       }
     },
 
@@ -326,7 +327,7 @@
 
     "network": {
       "format": "{ifname}",
-      "format-wifi": "{icon}",
+      "format-wifi": "{icon} {essid}",
       "format-ethernet": "󰌘 {essid}",
       "format-disconnected": "󰌙", 
       "tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
@@ -459,7 +460,7 @@
 
     "custom/menu": {
       "format": "󰣇{}",
-      "exec": "echo ; echo 󱓟 app launcher",
+      "exec": "echo ; echo \"Rofi\"",
       "interval" : 86400, // once every day
       "tooltip": true,
       "on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
