@@ -11,7 +11,7 @@
 @define-color accent4 #ee9ff9;
 @define-color accent5 #7da6ff;
 @define-color accent6 #0db9d7;
-@define-color waybarclr rgba(200,200,200,0.015);
+@define-color waybarclr rgba(75,75,75,0.1);
 
 * {
     font-family: "JetBrainsMono Nerd Font";
@@ -167,11 +167,11 @@ tooltip label{
 }
 
 #clock {
-    color: #7287fd;
+    color: @accent5;
 }
 
 #custom-updater {
-    color: #7287fd;
+    color: @accent3;
 }
 
 #battery {
@@ -214,7 +214,7 @@ label:focus {
 }
 
 #memory {
-    color: @accent3;
+    color: @accent4;
 }
 
 #backlight {
@@ -234,11 +234,11 @@ label:focus {
 }
 
 #pulseaudio {
-    color: @accent4;
+    color: @accent1;
 }
 
 #pulseaudio-muted {
-    color: @accent2;
+    color: @accent1;
 }
 #wireplumber {
     color: @accent4;
@@ -269,7 +269,7 @@ label:focus {
 }
 
 #custom-weather {
-    color: #66cc99;
+    color: @accent4;
 }
 
 #custom-lock {

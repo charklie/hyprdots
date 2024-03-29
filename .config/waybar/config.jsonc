@@ -9,36 +9,41 @@
     "ipc": true,
 
     "modules-left": [
-      "custom/menu", 
+      "custom/menu",
       "custom/separator#line",
-      "hyprland/workspaces", 
+      "custom/app#helix",
+      "custom/app#discord",
+      "custom/app#firefox",
+      "custom/app#steam",
+      "custom/app#prism",
       "custom/separator#line",
-      "wlr/taskbar"
+      "disk",
+      "battery",
+      "memory",
+      "cpu",
+      "network#speed"
     ],
 
     "modules-center": [ 
-      "clock",
-      "custom/weather"
+      "hyprland/workspaces"
     ], 
 
-    "modules-right": [
+   "modules-right": [
       "tray",
-      "custom/separator#line",
       "pulseaudio",	  
       "pulseaudio#microphone", 
-      "custom/separator#line",
-      "custom/lock",
-      "custom/power"
+      "custom/weather",
+      "clock",
     ],
 
     "custom/app#neovim": {
       "format": "{}  ",
-      "tooltip": false,
+      "tooltip": true,
       "on-click": "kitty -e 'nvim'"
     },
 
     "custom/app#helix": {
-      "format": "{}",
+      "format": "{} 󰅨 ",
       "tooltip": false,
       "on-click": "kitty -e helix"
     },
@@ -79,6 +84,12 @@
       "on-click": "brave"
     },
 
+    "custom/app#firefox": {
+      "format": "{} 󰈹 ",
+      "tooltip": false,
+      "on-click": "brave"
+    },
+
     "custom/app#steam": {
       "format": "{}  ",
       "tooltip": false,
@@ -109,12 +120,13 @@
         "2": [],
         "3": [],
         "4": [],
-        "5": []
+        "5": [],
+        "6": [], 
+        "7": [],
+        "8": []
       },
 
       "format-icons": {
-        //"active": "",
-        //"default": ""
         "1": "Ⅰ",
         "2": "Ⅱ",
         "3": "Ⅲ ",
@@ -315,7 +327,7 @@
     "network": {
       "format": "{ifname}",
       "format-wifi": "{icon}",
-      "format-ethernet": "󰌘",
+      "format-ethernet": "󰌘 {essid}",
       "format-disconnected": "󰌙", 
       "tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
       "format-linked": "󰈁 {ifname} (No IP)",
@@ -508,7 +520,7 @@
       "exec": "checkupdates | wc -l",
       "exec-if": "[[ $(checkupdates | wc -l) ]]",
       "interval": 15,
-      "on-click": "kitty -T update paru -Syu || yay -Syu && notify-send 'The system has been updated'"
+      "on-click": "kitty -T update yay -Syu && sudo pacman -Syu && notify-send 'The system has been updated'"
     },
 
     "custom/weather": {

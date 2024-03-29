@@ -37,7 +37,7 @@ element-icon, element-text, scrollbar {
 
 window {
   location : center;
-  width    : 450px;
+  width    : 600px;
   x-offset : 0px;
   y-offset : 0px;
 
@@ -66,12 +66,12 @@ icon-search {
 }
 
 textbox {
-  padding          : 4px 8px;
+  padding          : 2px 2px;
   background-color : @bg2;
 }
 
 listview {
-  padding      : 4px 0px;
+  padding      : 2px 0px;
   lines        : 4;
   columns      : 4;
   scrollbar    : true;
@@ -81,7 +81,7 @@ listview {
 }
 
 element {
-  padding : 4px 8px;
+  padding : 2px 4px;
   spacing : 8px;
   orientation: vertical;
 }
@@ -118,7 +118,7 @@ element selected urgent {
 }
 
 element-icon {
-  size: 4em;
+  size: 6em;
 }
 
 element-text {
@@ -128,12 +128,12 @@ element-text {
 scrollbar {
   handle-width : 4px;
   handle-color : @fg2;
-  padding      : 0 4px;
+  padding      : 0 2px;
 }
 
 entry {
   enabled: true;
   cursor: text;
   placeholder: "Choose Wallpaper";
-  placeholder-color: inherit;
+  placeholder-color: @fg2;
 }

@@ -15,16 +15,16 @@ vim.opt.timeoutlen = 300
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.list = true
-vim.opt.listchars = { tab = "   ", trail = "·", nbsp = "␣" }
 vim.opt.inccommand = "split"
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.cursorline = false
 vim.opt.scrolloff = 10
 
--- vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+-- vim.opt.listchars = { tab = "   ", trail = "·", nbsp = "␣" }
 
 -- [[ Tabs ]]
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 
 -- [[ Basic Keymaps ]]
 vim.opt.hlsearch = true

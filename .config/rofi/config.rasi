@@ -1,2 +1,4 @@
 
-@theme "~/.config/rofi/themes/simple-tokyonight.rasi"
+//@theme "~/.config/rofi/themes/simple-tokyonight.rasi"
+
+@theme "/home/chararch/.config/rofi/themes/simple-tokyonight.rasi"
