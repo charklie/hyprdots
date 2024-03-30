@@ -21,7 +21,7 @@
       "battery",
       "memory",
       "cpu",
-      "network"
+      "temperature"
     ],
 
     "modules-center": [ 
@@ -30,11 +30,12 @@
 
    "modules-right": [
       "tray",
+      "custom/separator#line",
+      "network",
       "pulseaudio",	  
       "pulseaudio#microphone", 
       "custom/weather",
-      "clock",
-      "date"
+      "clock"
     ],
 
     "custom/app#neovim": {
@@ -123,8 +124,7 @@
         "4": [],
         "5": [],
         "6": [], 
-        "7": [],
-        "8": []
+        "7": []
       },
 
       "format-icons": {
@@ -155,15 +155,6 @@
         "on-scroll-up": "~/.config/hypr/scripts/Brightness.sh --inc",
         "on-scroll-down": "~/.config/hypr/scripts/Brightness.sh --dec",
         "smooth-scrolling-threshold": 1
-    },
-
-    "custom/spotify": {
-      "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
-      "format": " {}",
-      "return-type": "json",
-      "on-click": "playerctl play-pause",
-      "on-double-click-right": "playerctl next",
-      "on-scroll-down": "playerctl previous"
     },
 
     "battery": {
@@ -254,7 +245,7 @@
 
     "hyprland/window": {
       "format": "{}",
-      "max-length": 40,
+      "max-length": 20,
       "separate-outputs": true,
       "offscreen-css" : true,
       "offscreen-css-text": "(inactive)",

@@ -278,7 +278,7 @@ label:focus {
 
 #keyboard-state,
 #temperature {
-    color: @accent6;
+    color: @accent3;
     /* background-color: #f0932b; */
 }
 
