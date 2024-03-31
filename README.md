@@ -1,16 +1,19 @@
 # Hyprland - dotfiles
 **ATTENTION:** Most (if not all) scripts and some configs are made by [JaKooLit](https://github.com/JaKooLit) **huge** credit goes to them for their amazing work. I'd seriously recommend checking them out.
 
-At this time, this most likely will not work so I would suggest just grabbing the configs you like and not installing all of it. Expect it to break.
-
-Before you install, read the **whole** README.md.
-
-Screenshots available at the bottom.
+### Screenshots
+![image](https://github.com/charklie/hyprdots/assets/157241212/3557494d-f83f-4b2a-9963-8eb740e3543e)
+![image](https://github.com/charklie/hyprdots/assets/157241212/bde6d3a0-d2f9-42a1-9fe7-7738c85a0e5c)
+![image](https://github.com/charklie/hyprdots/assets/157241212/d1590cfd-0a8a-4658-8638-cc79fe89aab2)
+![image](https://github.com/charklie/hyprdots/assets/157241212/9a671fca-95d2-4b32-b1ed-1244c7e247e0)
+![image](https://github.com/charklie/hyprdots/assets/157241212/6ef0918d-576d-4b1d-85cc-6f5083ef8902)
+![image](https://github.com/charklie/hyprdots/assets/157241212/a060f3ce-cf2a-4ade-a7f5-2cd21cee2d8a)
+![image](https://github.com/charklie/hyprdots/assets/157241212/f6015c94-5cc7-4279-a035-74b8ab6ad41c)
 
 ### Needed Packages:
 
-- Starship Prompt
 - Zoxide
+- Vesktop
 - Thefuck
 - Grim
 - Swappy
@@ -23,13 +26,13 @@ Screenshots available at the bottom.
 - Cava
 - Btop
 - Neovim
+- Helix
 - SwayLock
 - Thunar file manager
-- Fish + Starship prompt
+- Fish + Oh my fish
 - Python 3
-- Python Pip
-    - pywal
-    - requests
+- python-pywal
+- python-requests
 - Eza
 - Swww
 - Kvantum
@@ -37,35 +40,16 @@ Screenshots available at the bottom.
 - Yad
 - Stow
 
-###### Tip: to install pip packages, use the flag `--break-system-packages` to bypass you needing to install them with pacman instead.
-
 ### Needed Packages (Laptops only):
 
 - Mousepad
 - Brightnessctl
 
-### Needed Fonts:
-
-- adobe-source-code-pro-fonts 
-- noto-fonts-emoji
-- otf-font-awesome 
-- ttf-droid 
-- ttf-fira-code
-- ttf-jetbrains-mono 
-- ttf-jetbrains-mono-nerd
-
-### Packages that may break the configurations:
-- Dunst
-- Mako
-- Oh my fish
-
 ### Recommended, but not needed:
-- Tokyo night theme to match with all my configs, install from: https://www.gnome-look.org/p/1681315. Choose freely which one, although I recommend "BL-LB".
-- Brave browser, excellent browser thats both aestetically pleasing and safe from trackers and ads.
+- Tokyo night GTK theme, install from: https://www.gnome-look.org/p/1681315. Choose freely which one, although I recommend "BL-LB".
 
 ### Pre Installation
 
-- Backup any configurations you plan on keeping. `mv ~/.config/<config> ~/.config/<config>.bkp`
 - If you have wallpapers you want to use, move them to `~/Pictures/wallpapers/`
 - Install packages
 - Restart your computer to ensure no apps are interfering with installation
@@ -78,7 +62,7 @@ Screenshots available at the bottom.
 - If you want to install a specific config:
     - CD into directory of config: e.g. `cd ~/.dotfiles/Pictures/wallpapers/`
     - Stow: `stow .`
-- Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group. **This is required for keybind and waybar functionality.**
+- Run `sh $HOME/.config/scripts/afterinstallation.sh` to make all scripts executable and add yourself to the input group. **This is required for Hyprland keybind and waybar functionality.**
 - Restart your computer.
 
 ### Post Installation
@@ -104,16 +88,6 @@ Apps started on startup can be edited from `~/.config/hypr/configs/Startup_Apps.
 Other Hyprland configurations are located within `~/.config/hypr/configs/UserSettings.conf`
 
 As mentioned before, wallpapers should be stored in `Pictures/wallpapers/`
-
-### Screenshots / Previews:
-
-![image](https://github.com/charklie/hyprdots/assets/157241212/628f0f7e-8dac-492f-8ea1-044d0cb69607)
-![image](https://github.com/charklie/hyprdots/assets/157241212/4f55d0a8-4aa7-4c49-82e5-0c718eea57e3)
-![image](https://github.com/charklie/hyprdots/assets/157241212/9ebccd44-dec1-449d-8798-89cb8e64444b)
-![image](https://github.com/charklie/hyprdots/assets/157241212/f961149e-fa59-47af-8914-c60d0e3e3f3d)
-![image](https://github.com/charklie/hyprdots/assets/157241212/87c6b520-9298-4811-bb5b-74939bf97409)
-![image](https://github.com/charklie/hyprdots/assets/157241212/43f9b4c0-1b01-4d0c-8ecb-5eee130a4d80)
-![image](https://github.com/charklie/hyprdots/assets/157241212/69ffa94a-a8a4-45d7-9182-b3be3ae52da4)
 
 ##### Todo (#todo)
 - [ ] Hyprcursor
