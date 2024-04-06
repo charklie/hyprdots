@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/.dotfiles/Pictures/wallpapers/fishing_stars.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e2142",
+        "foreground": "#dac7e1",
+        "cursor": "#dac7e1"
+    },
+    "colors": {
+        "color0": "#0e2142",
+        "color1": "#4C46B9",
+        "color2": "#5D47B8",
+        "color3": "#6E50D1",
+        "color4": "#6658DF",
+        "color5": "#9767EE",
+        "color6": "#C57BF6",
+        "color7": "#dac7e1",
+        "color8": "#988b9d",
+        "color9": "#4C46B9",
+        "color10": "#5D47B8",
+        "color11": "#6E50D1",
+        "color12": "#6658DF",
+        "color13": "#9767EE",
+        "color14": "#C57BF6",
+        "color15": "#dac7e1"
+    }
+}

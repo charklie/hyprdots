@@ -10,10 +10,10 @@ timestr=%H:%M:%S
 datestr=%d %B, %a
 
 # Add current display as background
-#screenshots
+screenshots
 
 # Add an image as a background. You need to disable screenshots above
-image=$HOME/.config/rofi/.current_wallpaper
+# image=$HOME/.cache/swww/*-1
 
 # Effect for background
 # NOTE: if you choose image as wallpaper, you may want to comment (#) these effects 

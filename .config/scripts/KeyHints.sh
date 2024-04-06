@@ -43,19 +43,18 @@ yad --width=$dynamic_width --height=$dynamic_height \
 " Shift Q " "closes a specified window" "(window)" \
 " Alt V" "Clipboard Manager" "(cliphist)" \
 " W" "Choose wallpaper" "(Wallpaper Menu)" \
-" B" "Hide waybar" "waybar" \
+" B" "Open browser" "brave" \
 " ALT R" "Reload Waybar swaync Rofi" "CHECK NOTIFICATION FIRST!!!" \
 " SHIFT N" "Launch Notification Panel" "swaync Notification Center" \
-" Print" "screenshot" "(grim)" \
-" Shift Print" "screenshot region" "(grim + slurp)" \
-" Shift S" "screenshot region" "(swappy)" \
-"ALT Print" "Screenshot active window" "active window only" \
+" Print" "screenshot (~/Pictures/Screenshots/)" "(grim)" \
+" Shift Print" "screenshot region (~/Pictures/Screenshots/)" "(grim + slurp)" \
+" Shift S" "screenshot region (direct open)" "(swappy)" \
+"ALT Print" "Screenshot active window (~/Pictures/Screenshots/)" "active window only" \
 "CTRL ALT P" "power-menu" "(wlogout)" \
 "CTRL ALT L" "screen lock" "(swaylock)" \
 "CTRL ALT Del" "Hyprland Exit" "(SAVE YOUR WORK!!!)" \
 " F" "Fullscreen" "Toggles to full screen" \
 " Shift F" "Toggle float" "single window" \
 " ALT F" "Toggle all windows to float" "all windows" \
-" SHIFT G" "Gamemode! All animations OFF or ON" "toggle" \
 " H" "Launch this app" "" \
 "" "" "" \

@@ -1,0 +1,6 @@
+2024/04/06-14:44:10.280 778f Reusing MANIFEST /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/04/06-14:44:10.317 778f Recovering log #490
+2024/04/06-14:44:10.319 778f Reusing old log /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/000490.log 
+2024/04/06-14:46:11.029 7790 Level-0 table #495: started
+2024/04/06-14:46:11.035 7790 Level-0 table #495: 24023 bytes OK
+2024/04/06-14:46:11.037 7790 Delete type=0 #490

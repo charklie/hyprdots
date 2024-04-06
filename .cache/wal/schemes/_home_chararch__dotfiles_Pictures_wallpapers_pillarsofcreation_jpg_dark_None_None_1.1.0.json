@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/.dotfiles/Pictures/wallpapers/pillarsofcreation.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e1015",
+        "foreground": "#a3c1c9",
+        "cursor": "#a3c1c9"
+    },
+    "colors": {
+        "color0": "#1e1015",
+        "color1": "#47556C",
+        "color2": "#616268",
+        "color3": "#8F6A5C",
+        "color4": "#948D73",
+        "color5": "#366D8B",
+        "color6": "#4D708E",
+        "color7": "#a3c1c9",
+        "color8": "#72878c",
+        "color9": "#47556C",
+        "color10": "#616268",
+        "color11": "#8F6A5C",
+        "color12": "#948D73",
+        "color13": "#366D8B",
+        "color14": "#4D708E",
+        "color15": "#a3c1c9"
+    }
+}

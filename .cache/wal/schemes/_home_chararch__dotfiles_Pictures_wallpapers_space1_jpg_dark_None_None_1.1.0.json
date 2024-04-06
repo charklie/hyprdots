@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chararch/.dotfiles/Pictures/wallpapers/space1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0C17",
+        "foreground": "#d0d7e7",
+        "cursor": "#d0d7e7"
+    },
+    "colors": {
+        "color0": "#0E0C17",
+        "color1": "#57629C",
+        "color2": "#5867B2",
+        "color3": "#877AB7",
+        "color4": "#7584BA",
+        "color5": "#768CCD",
+        "color6": "#98A9DA",
+        "color7": "#d0d7e7",
+        "color8": "#9196a1",
+        "color9": "#57629C",
+        "color10": "#5867B2",
+        "color11": "#877AB7",
+        "color12": "#7584BA",
+        "color13": "#768CCD",
+        "color14": "#98A9DA",
+        "color15": "#d0d7e7"
+    }
+}

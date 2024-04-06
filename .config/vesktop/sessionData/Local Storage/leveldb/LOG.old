@@ -1,0 +1,18 @@
+2024/04/05-13:09:05.821 1ed3 Reusing MANIFEST /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/04/05-13:09:05.861 1ed3 Recovering log #485
+2024/04/05-13:09:05.862 1ed3 Reusing old log /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/000485.log 
+2024/04/05-13:11:06.594 1ed4 Level-0 table #489: started
+2024/04/05-13:11:06.599 1ed4 Level-0 table #489: 27688 bytes OK
+2024/04/05-13:11:06.601 1ed4 Delete type=0 #485
+2024/04/05-16:40:25.535 1ed4 Level-0 table #491: started
+2024/04/05-16:40:25.539 1ed4 Level-0 table #491: 25501 bytes OK
+2024/04/05-16:40:25.542 1ed4 Delete type=0 #488
+2024/04/05-16:40:25.542 1ed4 Compacting 4@0 + 1@1 files
+2024/04/05-16:40:25.546 1ed4 Generated table #492@0: 62 keys, 41210 bytes
+2024/04/05-16:40:25.547 1ed4 Compacted 4@0 + 1@1 files => 41210 bytes
+2024/04/05-16:40:25.549 1ed4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/05-16:40:25.550 1ed4 Delete type=2 #489
+2024/04/05-16:40:25.550 1ed4 Delete type=2 #484
+2024/04/05-16:40:25.550 1ed4 Delete type=2 #482
+2024/04/05-16:40:25.550 1ed4 Delete type=2 #486
+2024/04/05-16:40:25.550 1ed4 Delete type=2 #491
