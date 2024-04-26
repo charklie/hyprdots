@@ -99,6 +99,9 @@ alias ll='eza -l --color=always --group-directories-first --icons' # long format
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l.="eza -a | grep -e '^\.'" # show only dotfiles
 
+# Replace cat with bat
+alias cat="bat"
+
 # Common use
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias fixpacman="sudo rm /var/lib/pacman/db.lck"
@@ -123,12 +126,6 @@ alias gitpkg='pacman -Q | grep -i "\-git" | wc -l' # List amount of -git package
 
 # Get fastest mirrors
 alias mirror="sudo cachyos-rate-mirrors"
-
-# Help people new to Arch
-alias apt='man pacman'
-alias apt-get='man pacman'
-alias please='sudo'
-alias tb='nc termbin.com 9999'
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
@@ -156,7 +153,6 @@ alias emacs="~/.config/emacs/bin/doom run"
 
 # Prompts and others
 zoxide init fish | source
-# starship init fish | source
 thefuck --alias | source
 
 fish_add_path /home/chararch/.spicetify

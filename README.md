@@ -11,9 +11,9 @@
 ![image](https://github.com/charklie/hyprdots/assets/157241212/f6015c94-5cc7-4279-a035-74b8ab6ad41c)
 
 ### Needed Packages:
-
 - Zoxide
-- Vesktop
+- Bat
+- Vesktop*
 - Thefuck
 - Grim
 - Swappy
@@ -22,11 +22,12 @@
 - Hyprlock
 - SwayNC
 - Waybar
-- Kitty
-- Cava
-- Btop
-- Neovim
-- Helix
+- Kitty*
+- Alacritty
+- Cava*
+- Btop*
+- Neovim*
+- Helix*
 - SwayLock
 - Thunar file manager
 - Fish + Oh my fish
@@ -39,6 +40,8 @@
 - Wlogout
 - Yad
 - Stow
+
+_Packages marked with a * are optional, configs are available but wont break the system if not installed._
 
 ### Needed Packages (Laptops only):
 

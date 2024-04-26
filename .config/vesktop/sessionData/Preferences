@@ -1,1 +1,1 @@
-{"browser":{"enable_spellchecking":true},"electron":{"media":{"device_id_salt":"FBA57EDCFEC0D1A82C88C070994AFAB6"}},"partition":{"per_host_zoom_levels":{"11170426265517645764":{"discord.com":0.5}}},"spellcheck":{"dictionaries":["en-US","en","en"],"dictionary":""}}
+{"browser":{"enable_spellchecking":true},"electron":{"media":{"device_id_salt":"FBA57EDCFEC0D1A82C88C070994AFAB6"}},"partition":{"per_host_zoom_levels":{"11170426265517645764":{}}},"spellcheck":{"dictionaries":["en-US","en","en"],"dictionary":""}}

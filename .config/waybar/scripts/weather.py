@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# From https://raw.githubusercontent.com/rxyhn/dotfiles/main/home/rxyhn/modules/desktop/waybar/scripts/waybar-wttr.py
-
 ## ensure to insert city inside ""
 city = "Skelleftea"
 import json
@@ -60,9 +57,7 @@ WEATHER_CODES = {
 
 data = {}
 
-
 weather = requests.get(f"https://wttr.in/{city}?format=j1").json()
-
 
 def format_time(time):
     return time.replace("00", "").zfill(2)

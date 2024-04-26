@@ -1,6 +1,45 @@
-2024/04/06-14:44:10.280 778f Reusing MANIFEST /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2024/04/06-14:44:10.317 778f Recovering log #490
-2024/04/06-14:44:10.319 778f Reusing old log /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/000490.log 
-2024/04/06-14:46:11.029 7790 Level-0 table #495: started
-2024/04/06-14:46:11.035 7790 Level-0 table #495: 24023 bytes OK
-2024/04/06-14:46:11.037 7790 Delete type=0 #490
+2024/04/26-21:23:14.816 5ef Reusing MANIFEST /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/04/26-21:23:14.869 5ef Recovering log #925
+2024/04/26-21:23:14.876 5ef Reusing old log /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/000925.log 
+2024/04/26-21:25:15.848 5f0 Level-0 table #930: started
+2024/04/26-21:25:15.852 5f0 Level-0 table #930: 43227 bytes OK
+2024/04/26-21:25:15.854 5f0 Delete type=0 #925
+2024/04/26-21:26:15.849 5f0 Level-0 table #932: started
+2024/04/26-21:26:15.855 5f0 Level-0 table #932: 37905 bytes OK
+2024/04/26-21:26:15.858 5f0 Delete type=0 #929
+2024/04/26-21:27:15.849 5f0 Level-0 table #934: started
+2024/04/26-21:27:15.852 5f0 Level-0 table #934: 29481 bytes OK
+2024/04/26-21:27:15.855 5f0 Delete type=0 #931
+2024/04/26-21:28:15.849 5f0 Level-0 table #936: started
+2024/04/26-21:28:15.854 5f0 Level-0 table #936: 25692 bytes OK
+2024/04/26-21:28:15.856 5f0 Delete type=0 #933
+2024/04/26-21:28:15.857 5f0 Compacting 4@0 + 1@1 files
+2024/04/26-21:28:15.864 5f0 Generated table #937@0: 107 keys, 52769 bytes
+2024/04/26-21:28:15.864 5f0 Compacted 4@0 + 1@1 files => 52769 bytes
+2024/04/26-21:28:15.866 5f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/26-21:28:15.867 5f0 Delete type=2 #936
+2024/04/26-21:28:15.867 5f0 Delete type=2 #930
+2024/04/26-21:28:15.867 5f0 Delete type=2 #932
+2024/04/26-21:28:15.867 5f0 Delete type=2 #934
+2024/04/26-21:28:15.867 5f0 Delete type=2 #927
+2024/04/26-21:29:15.849 5f0 Level-0 table #939: started
+2024/04/26-21:29:15.851 5f0 Level-0 table #939: 25737 bytes OK
+2024/04/26-21:29:15.854 5f0 Delete type=0 #935
+2024/04/26-21:35:40.110 5ef Level-0 table #941: started
+2024/04/26-21:35:40.114 5ef Level-0 table #941: 25782 bytes OK
+2024/04/26-21:35:40.116 5ef Delete type=0 #938
+2024/04/26-21:39:09.695 5f0 Level-0 table #943: started
+2024/04/26-21:39:09.699 5f0 Level-0 table #943: 29752 bytes OK
+2024/04/26-21:39:09.702 5f0 Delete type=0 #940
+2024/04/26-21:42:39.253 5ef Level-0 table #945: started
+2024/04/26-21:42:39.256 5ef Level-0 table #945: 26139 bytes OK
+2024/04/26-21:42:39.260 5ef Delete type=0 #942
+2024/04/26-21:42:39.260 5ef Compacting 4@0 + 1@1 files
+2024/04/26-21:42:39.263 5ef Generated table #946@0: 107 keys, 53005 bytes
+2024/04/26-21:42:39.264 5ef Compacted 4@0 + 1@1 files => 53005 bytes
+2024/04/26-21:42:39.266 5ef compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/26-21:42:39.266 5ef Delete type=2 #939
+2024/04/26-21:42:39.266 5ef Delete type=2 #941
+2024/04/26-21:42:39.266 5ef Delete type=2 #945
+2024/04/26-21:42:39.266 5ef Delete type=2 #937
+2024/04/26-21:42:39.266 5ef Delete type=2 #943

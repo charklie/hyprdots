@@ -332,7 +332,11 @@
             "enabled": false
         },
         "ReviewDB": {
-            "enabled": false
+            "enabled": true,
+            "notifyReviews": true,
+            "reviewsDropdownState": true,
+            "showWarning": true,
+            "hideBlockedUsers": true
         },
         "RoleColorEverywhere": {
             "enabled": false
@@ -481,6 +485,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1711470107643
+        "settingsSyncVersion": 1713295841453
     }
 }

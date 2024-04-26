@@ -5,43 +5,24 @@
     "passthrough": false,
     "position": "top",
     "spacing": 4,
+    // "width": 1920,
     "fixed-center": true,
     "ipc": true,
 
-    "modules-left": [
-      "custom/menu",
-      "hyprland/window",
-      "disk",
-      "battery",
-      "memory",
-      "cpu",
-      "temperature"
-    ],
-
-    "modules-center": [ 
-      "hyprland/workspaces"
-    ], 
-
-   "modules-right": [
-      "tray",
-      "custom/separator#line",
-      "network",
-      "pulseaudio",	  
-      "pulseaudio#microphone", 
-      "custom/weather",
-      "clock"
-    ],
+    "modules-left":   [ "group/launcher", "hyprland/workspaces", "group/hardware" ],
+    "modules-center": [ "clock" ],
+    "modules-right":  [ "custom/weather", "group/audio", "network", "tray", "custom/power" ],
 
     "custom/app#neovim": {
       "format": "{}  ",
       "tooltip": true,
-      "on-click": "kitty -e 'nvim'"
+      "on-click": "foot -e 'nvim'"
     },
 
     "custom/app#helix": {
       "format": "{} 󰅨 ",
       "tooltip": false,
-      "on-click": "kitty -e helix"
+      "on-click": "foot -e helix"
     },
 
     "custom/app#doomemacs": {
@@ -63,7 +44,7 @@
     },
 
     "custom/app#obs": {
-      "format": "{} 󰻃 ",
+      "format": "{}  ",
       "tooltip": false,
       "on-click": "obs"
     },
@@ -74,16 +55,10 @@
       "on-click": "vesktop"
     },
 
-    "custom/app#browser": {
-      "format": "{} 󰈹 ",
-      "tooltip": false,
-      "on-click": "firefox"
-    },
-
     "custom/app#firefox": {
       "format": "{} 󰈹 ",
       "tooltip": false,
-      "on-click": "brave"
+      "on-click": "firefox"
     },
 
     "custom/app#steam": {
@@ -102,6 +77,43 @@
       "on-click": "code ~/Documents/Programming/"
     },
 
+    "group/launcher": {
+      "orientation": "inherit",
+      "modules": [ "custom/menu", "custom/app#firefox", "custom/app#discord", "custom/app#prism", "custom/app#steam", "custom/app#obs" ],
+      "drawer": {
+        "transition-duration": 250,
+        "transition-left-to-right": true,
+      }
+    },
+
+    "group/apps": {
+      "orientation": "horizontal",
+      "modules": [ "custom/app#firefox", "custom/app#discord", "custom/app#prism", "custom/app#steam" ]
+    },
+
+    "group/hardware": {
+      "orientation": "horizontal",
+      "modules": [ "cpu", "disk", "memory", "temperature" ]
+    },
+
+    "group/audio": {
+      "orientation": "horizontal",
+      "modules": [ "pulseaudio", "pulseaudio#microphone" ],
+    },
+
+    "mpd": {
+      "tooltip": true,
+      "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
+      "format": " {elapsedTime:%M:%S}",
+      "format-disconnected": "⚠  Disconnected",
+      "format-stopped": " Not Playing",
+      "on-click": "mpc toggle",
+      "state-icons": {
+        "playing": "",
+        "paused": ""
+      }
+    },
+
     "hyprland/workspaces": {
       "active-only": false,
       "all-outputs": true, 
@@ -115,23 +127,13 @@
         "1": [], 
         "2": [],
         "3": [],
-        "4": [],
-        "5": [],
-        "6": [], 
-        "7": []
+        "4": []
       },
 
       "format-icons": {
-        "1": "Ⅰ",
-        "2": "Ⅱ",
-        "3": "Ⅲ ",
-        "4": "Ⅳ",
-        "5": "Ⅴ",
-        "6": "Ⅵ",
-        "7": "Ⅶ",
-        "8": "Ⅷ",
-        "9": "Ⅸ",
-        "10": "Ⅹ"
+        "active": "",
+        "default": "",
+        "urgent": "󰗖",
      }
     },
     "backlight": {
@@ -181,9 +183,10 @@
       "on-click": "blueman-manager"
     },
 
+    // Clock formatting: https://fmt.dev/latest/syntax.html#chrono-specs
     "clock": {
       "interval": 1,
-      "format": " {:%H:%M   %d/%m}",
+      "format": " {:%I:%M %p   %D}",
       "tooltip-format": "<tt><small>{calendar}</small></tt>",
       "calendar": {
         "mode"          : "year",
@@ -208,7 +211,7 @@
     },
 
     "cpu": {
-      "format": "{usage}% 󰍛",  
+      "format": "{usage}% 󰍛  ",  
       "interval": 1,
       "format-alt-click": "click",
       "format-alt": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
@@ -219,7 +222,7 @@
     "disk": {
       "interval": 30,
       "path": "/",
-      "format": "{percentage_used}% 󰋊",
+      "format": "{percentage_used}% 󰋊  ",
       "tooltip": true,
       "tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)"
     },
@@ -273,7 +276,7 @@
 
     "memory": {
         "interval": 10,
-        "format": "{used:0.1f}G 󰾆",
+        "format": "{used:0.1f}G 󰾆  ",
         "format-alt": "{percentage}% 󰾆",
         "format-alt-click": "click",
         "tooltip": true,
@@ -281,10 +284,39 @@
         "on-click-right": "kitty --title btop sh -c 'btop'"
     },
 
+    "mpris#full": {
+      "interval": 5,
+      "format": "{player_icon}  {artist} - {title}",
+      "format-paused": "{status_icon} {artist} - {title}",
+      "on-click-middle": "playerctl play-pause",
+      "on-click": "playerctl previous",
+      "on-click-right": "playerctl next",
+      "scroll-step": 5.0,
+      "on-scroll-up": "~/.config/scripts/Volume.sh --inc",
+      "on-scroll-down": "~/.config/scripts/Volume.sh --dec",
+      "smooth-scrolling-threshold": 1,
+      "max-length": 30,
+      "player-icons": {
+        "chromium": "",
+        "default": "",
+        "firefox": "",
+        "kdeconnect": "",
+        "mopidy": "",
+        "mpv": "󰐹",
+        "spotify": "",
+        "vlc": "󰕼"
+      },
+      "status-icons": {
+        "paused": "󰐎",
+        "playing": "",
+        "stopped": ""
+      }
+    },
+
     "mpris": {
-      "interval": 10,
-      "format": "{player_icon} ",
-      "format-paused": "{status_icon} <i>{dynamic}</i>",
+      "interval": 5,
+      "format": "{player_icon}",
+      "format-paused": "{status_icon}",
       "on-click-middle": "playerctl play-pause",
       "on-click": "playerctl previous",
       "on-click-right": "playerctl next",
@@ -312,7 +344,7 @@
 
     "network": {
       "format": "{ifname}",
-      "format-wifi": "{icon} {essid}",
+      "format-wifi": "{icon} Martin Router King", // {essid}",
       "format-ethernet": "󰌘 {essid}",
       "format-disconnected": "󰌙", 
       "tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
@@ -340,8 +372,8 @@
     },
 
     "pulseaudio": {
-      "format": "{icon} {volume}%",
-      "format-bluetooth": "{icon} 󰂰 {volume}%",
+      "format": "{icon}  {volume}%",
+      "format-bluetooth": "{icon} 󰂰  {volume}%",
       "format-muted": "󰖁",
       "format-icons": {
         "headphone": "",
@@ -365,7 +397,7 @@
 
     "pulseaudio#microphone": {
       "format": "{format_source}",
-      "format-source": " {volume}%",
+      "format-source": "  {volume}%",
       "format-source-muted": "",
       "on-click": "~/.config/scripts/Volume.sh --toggle-mic",
       "on-click-right": "pavucontrol -t 4",
@@ -387,7 +419,7 @@
     },
 
     "tray": {
-      "icon-size": 15,
+      "icon-size": 13,
       "spacing": 8
     },
 
@@ -402,15 +434,16 @@
     },
 
     "wlr/taskbar": {
-      "format": " {icon} ",
+      "format": "{icon}",
       "icon-size": 16,
       "all-outputs": false,
+      // "icon-theme": "Numix-Circle",
       "tooltip-format": "{title}",
       "on-click": "activate",
       "on-click-middle": "close",
       "ignore-list": [
         "rofi"
-      ]
+      ],
     },
 
     "custom/cycle_wall":{
@@ -445,15 +478,13 @@
 
     "custom/menu": {
       "format": "󰣇{}",
-      "exec": "echo ; echo \"Rofi\"",
-      "interval" : 86400, // once every day
-      "tooltip": true,
+      "tooltip": false,
       "on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
       "on-click-middle": "~/.config/scripts/WallpaperSelect.sh"
     },
 
     "custom/cava_mviz": {
-      "exec": "~/.config/hypr/scripts/WaybarCava.sh",
+      "exec": "~/.config/scripts/WaybarCava.sh",
       "format": "{}"
     },
 
@@ -472,11 +503,9 @@
     },
 
     "custom/power": {
-      "format": "⏻ ",
-      "exec": "echo ; echo 󰟡 power // blur",
+      "format": "⏻",
       "on-click": "~/.config/scripts/Wlogout.sh",
-      "interval" : 86400, // once every day
-      "tooltip": true
+      "tooltip": false
     },
 
     "custom/swaync": {
@@ -511,6 +540,7 @@
 
     "custom/weather": {
       "exec": "python3 ~/.config/waybar/scripts/weather.py",
+      // "exec": "curl wttr.in/skelleftea",
       "restart-interval": 300,
       "return-type": "json",
       "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/47e43b3375e11ad8811d023073c151b4959e39cb27cc2ac918c393a66ddaccb0",
@@ -538,6 +568,12 @@
 
     "custom/separator#blank": {
       "format": "",
+      "interval": "once",
+      "tooltip": false
+    },
+
+    "custom/separator#blank#1": {
+      "format": " ",
       "interval": "once",
       "tooltip": false
     },
