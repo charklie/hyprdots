@@ -1,4 +1,7 @@
-theme = "catppuccin_mocha"
+theme = "amberwood"
+# theme = "catppuccin_mocha"
+# theme = "base16_transparent"
+# theme = "gruber-darker"
 
 [editor]
 mouse = true

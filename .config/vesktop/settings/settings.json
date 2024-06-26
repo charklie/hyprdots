@@ -48,7 +48,8 @@
             "enabled": false
         },
         "NoTrack": {
-            "enabled": true
+            "enabled": true,
+            "disableAnalytics": true
         },
         "Settings": {
             "enabled": true,
@@ -371,9 +372,6 @@
         "ShowMeYourName": {
             "enabled": false
         },
-        "ShowTimeouts": {
-            "enabled": false
-        },
         "SilentMessageToggle": {
             "enabled": false
         },
@@ -473,6 +471,48 @@
         },
         "ResurrectHome": {
             "enabled": false
+        },
+        "ShowHiddenThings": {
+            "enabled": false
+        },
+        "BetterSessions": {
+            "enabled": false
+        },
+        "BetterSettings": {
+            "enabled": false
+        },
+        "FriendsSince": {
+            "enabled": false
+        },
+        "ImageLink": {
+            "enabled": false
+        },
+        "ImplicitRelationships": {
+            "enabled": false
+        },
+        "MessageLatency": {
+            "enabled": false
+        },
+        "OverrideForumDefaults": {
+            "enabled": false
+        },
+        "PauseInvitesForever": {
+            "enabled": false
+        },
+        "ReplyTimestamp": {
+            "enabled": false
+        },
+        "StreamerModeOnStream": {
+            "enabled": false
+        },
+        "UnlockedAvatarZoom": {
+            "enabled": false
+        },
+        "VoiceDownload": {
+            "enabled": false
+        },
+        "WebScreenShareFixes": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -485,6 +525,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1713295841453
+        "settingsSyncVersion": 1715262008344
     }
 }

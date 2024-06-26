@@ -1,9 +1,11 @@
 {
     "firstLaunch": false,
     "windowBounds": {
-        "x": 1987,
-        "y": 55,
+        "x": 16,
+        "y": 59,
         "width": 2528,
-        "height": 1369
-    }
+        "height": 1365
+    },
+    "maximized": true,
+    "minimized": false
 }

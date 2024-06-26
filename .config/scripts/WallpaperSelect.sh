@@ -12,7 +12,8 @@ FPS=30
 TYPE="wipe"
 DURATION=1
 BEZIER=".43,1.19,1,.4"
-SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
+RESIZE="crop"
+SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --resize $RESIZE"
 
 # Check if swaybg is running
 if pidof swaybg > /dev/null; then
@@ -83,6 +84,6 @@ fi
 main
 
 sleep 0.5
-${SCRIPTSDIR}/PywalSwww.sh
-sleep 0.2
+${SCRIPTSDIR}/PywalSwww.s5
+sleep 0.1
 ${SCRIPTSDIR}/Refresh.sh

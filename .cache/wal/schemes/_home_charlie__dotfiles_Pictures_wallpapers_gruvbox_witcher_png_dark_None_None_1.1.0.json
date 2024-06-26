@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/charlie/.dotfiles/Pictures/wallpapers/gruvbox_witcher.png",
+    "alpha": "100",
+    "special": {
+        "background": "#161616",
+        "foreground": "#eae6d7",
+        "cursor": "#eae6d7"
+    },
+    "colors": {
+        "color0": "#161616",
+        "color1": "#958776",
+        "color2": "#A1927F",
+        "color3": "#648E89",
+        "color4": "#85A598",
+        "color5": "#ADA18A",
+        "color6": "#D3C4A1",
+        "color7": "#eae6d7",
+        "color8": "#a3a196",
+        "color9": "#958776",
+        "color10": "#A1927F",
+        "color11": "#648E89",
+        "color12": "#85A598",
+        "color13": "#ADA18A",
+        "color14": "#D3C4A1",
+        "color15": "#eae6d7"
+    }
+}

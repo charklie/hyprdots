@@ -38,8 +38,9 @@ element-icon, element-text, scrollbar {
 }
 
 window {
-  location : center;
+  // location : SouthEast;
   width    : 500px;
+  height: 470px;
   x-offset : 0px;
   y-offset : 0px;
 

@@ -26,6 +26,8 @@ sleep 0.3
 # Relaunch waybar
 waybar &
 
+# Relaunch fish
+
 # relaunch swaync
 sleep 0.5
 swaync > /dev/null 2>&1 &

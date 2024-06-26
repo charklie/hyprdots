@@ -1,45 +1,6 @@
-2024/04/25-17:13:01.688 2262 Reusing MANIFEST /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2024/04/25-17:13:01.694 2262 Recovering log #906
-2024/04/25-17:13:01.694 2262 Reusing old log /home/chararch/.config/vesktop/sessionData/Local Storage/leveldb/000906.log 
-2024/04/25-17:15:02.288 2264 Level-0 table #911: started
-2024/04/25-17:15:02.293 2264 Level-0 table #911: 31238 bytes OK
-2024/04/25-17:15:02.295 2264 Delete type=0 #906
-2024/04/25-17:16:02.289 2264 Level-0 table #913: started
-2024/04/25-17:16:02.292 2264 Level-0 table #913: 25132 bytes OK
-2024/04/25-17:16:02.295 2264 Delete type=0 #910
-2024/04/25-17:17:02.288 2264 Level-0 table #915: started
-2024/04/25-17:17:02.291 2264 Level-0 table #915: 21948 bytes OK
-2024/04/25-17:17:02.294 2264 Delete type=0 #912
-2024/04/25-17:35:09.894 2264 Level-0 table #917: started
-2024/04/25-17:35:09.898 2264 Level-0 table #917: 25031 bytes OK
-2024/04/25-17:35:09.899 2264 Delete type=0 #914
-2024/04/25-17:35:09.899 2264 Compacting 4@0 + 1@1 files
-2024/04/25-17:35:09.902 2264 Generated table #918@0: 107 keys, 52800 bytes
-2024/04/25-17:35:09.903 2264 Compacted 4@0 + 1@1 files => 52800 bytes
-2024/04/25-17:35:09.905 2264 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/25-17:35:09.905 2264 Delete type=2 #913
-2024/04/25-17:35:09.905 2264 Delete type=2 #917
-2024/04/25-17:35:09.905 2264 Delete type=2 #911
-2024/04/25-17:35:09.905 2264 Delete type=2 #908
-2024/04/25-17:35:09.905 2264 Delete type=2 #915
-2024/04/25-17:36:34.292 2264 Level-0 table #920: started
-2024/04/25-17:36:34.296 2264 Level-0 table #920: 25134 bytes OK
-2024/04/25-17:36:34.299 2264 Delete type=0 #916
-2024/04/25-17:40:52.506 2264 Level-0 table #922: started
-2024/04/25-17:40:52.512 2264 Level-0 table #922: 18551 bytes OK
-2024/04/25-17:40:52.515 2264 Delete type=0 #919
-2024/04/25-17:47:16.224 2264 Level-0 table #924: started
-2024/04/25-17:47:16.229 2264 Level-0 table #924: 25062 bytes OK
-2024/04/25-17:47:16.233 2264 Delete type=0 #921
-2024/04/25-17:50:52.195 2262 Level-0 table #926: started
-2024/04/25-17:50:52.199 2262 Level-0 table #926: 25101 bytes OK
-2024/04/25-17:50:52.201 2262 Delete type=0 #923
-2024/04/25-17:50:52.201 2262 Compacting 4@0 + 1@1 files
-2024/04/25-17:50:52.204 2262 Generated table #927@0: 107 keys, 52850 bytes
-2024/04/25-17:50:52.204 2262 Compacted 4@0 + 1@1 files => 52850 bytes
-2024/04/25-17:50:52.207 2262 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/25-17:50:52.207 2262 Delete type=2 #922
-2024/04/25-17:50:52.207 2262 Delete type=2 #924
-2024/04/25-17:50:52.207 2262 Delete type=2 #918
-2024/04/25-17:50:52.207 2262 Delete type=2 #926
-2024/04/25-17:50:52.207 2262 Delete type=2 #920
+2024/06/25-12:14:13.950 13a0 Reusing MANIFEST /home/charlie/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/06/25-12:14:13.961 13a0 Recovering log #122
+2024/06/25-12:14:13.962 13a0 Reusing old log /home/charlie/.config/vesktop/sessionData/Local Storage/leveldb/000122.log 
+2024/06/25-12:33:21.317 13a1 Level-0 table #126: started
+2024/06/25-12:33:21.324 13a1 Level-0 table #126: 28936 bytes OK
+2024/06/25-12:33:21.330 13a1 Delete type=0 #122

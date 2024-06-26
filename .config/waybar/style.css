@@ -1,17 +1,19 @@
-@define-color critical  #ff0000;
-@define-color warning   #f3f809; 
-@define-color fgcolor   #ffffff;
-@define-color bgcolor   #222436;
-@define-color bgcolor   #222436;
-@define-color alert     #df3320;
-@define-color accent1   #ff7a93;
-@define-color accent2   #86aad7;
-@define-color accent3   #ff9e64;
-@define-color accent4   #ee9ff9;
-@define-color accent5   #7da6ff;
-@define-color accent6   #0db9d7;
-@define-color waybarclr rgba(25, 25, 43, 0.3);
-@define-color moduleclr rgba(34, 34, 52, 0.6);
+/* @define-color critical  #ff0000; */
+/* @define-color warning   #f3f809; */ 
+/* @define-color fgcolor   #ffffff; */
+/* @define-color bgcolor   #222436; */
+/* @define-color bgcolor   #222436; */
+/* @define-color alert     #df3320; */
+/* @define-color accent1   #ff7a93; */
+/* @define-color accent2   #86aad7; */
+/* @define-color accent3   #ff9e64; */
+/* @define-color accent4   #ee9ff9; */
+/* @define-color accent5   #7da6ff; */
+/* @define-color accent6   #0db9d7; */
+@define-color waybarclr @background; /* rgba(25, 25, 43, 0.3); */
+@define-color moduleclr @background; /* rgba(34, 34, 52, 0.6); */
+
+@import '../../.cache/wal/colors-waybar.css';
 
 * {
     font-family: "JetBrainsMono Nerd Font", "FontAwesome5Free";
@@ -30,12 +32,6 @@ window#waybar {
     border-color: transparent;
 }
 
-/*  ______          ____  _         */
-/* /_  __/__  ___  / / /_(_)__  ___ */
-/*  / / / _ \/ _ \/ / __/ / _ \(_-< */
-/* /_/  \___/\___/_/\__/_/ .__/___/ */ 
-/*                      /_/         */
-
 tooltip {
     background: #1e1e2e;
     opacity: 0.8;
@@ -48,12 +44,6 @@ tooltip {
 tooltip label{
     color: #cdd6f4;
 }
-
-/*    __  ___        __     __       */
-/*   /  |/  /__  ___/ /_ __/ /__ ___ */
-/*  / /|_/ / _ \/ _  / // / / -_|_-< */
-/* /_/  /_/\___/\_,_/\_,_/_/\__/___/ */
-/*                                   */
 
 /* .modules-left { */
     /* padding-left: 4.5px; */
@@ -79,7 +69,7 @@ tooltip label{
 
 #workspaces button.active {
     background-color: transparent;
-    color: @accent4;
+    color: @color4;
     padding-left: 4px;
     padding-right: 4px;
     animation: gradient_f 20s ease-in infinite;
@@ -88,7 +78,7 @@ tooltip label{
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
-  	color: @accent2;
+  	color: @color1;
     padding-left: 4px;
     padding-right: 4px;
     animation: gradient_f 20s ease-in infinite;
@@ -97,7 +87,7 @@ tooltip label{
 
 #workspaces button.focused {
     background-color: #bbccdd;
-    color: @accent2;
+    color: @color4;
 }
 
 #workspaces button.urgent {
@@ -116,8 +106,6 @@ tooltip label{
 #clock,
 #keyboard-state,
 #mode,
-#mpris,
-#network,
 #pulseaudio-slider,
 #taskbar,
 #tray,
@@ -133,12 +121,13 @@ tooltip label{
 #custom-updater,
 #custom-weather,
 #custom-launcher,
+#wifi,
 #apps,
 #hardware,
 #audio {
     padding: 6px 8px;
     border-style: solid;
-    background-color: shade(@moduleclr, 1.1);
+    background-color: shade(@moduleclr, 1.3);
     opacity: 1;
     margin: 3px 0px;
     border-radius: 6px;
@@ -155,20 +144,25 @@ tooltip label{
     font-size: 12px;
 }
 
+#mpris.logo {
+    margin-right: 3px;
+    margin-left: 0.1px;
+}
+
 #clock {
-    color: @accent5;
+    color: @color5;
 }
 
 #custom-updater {
-    color: @accent3;
+    color: @color3;
 }
 
 #battery {
-    color: @accent5;
+    color: @color5;
 }
 
 #mpris {
-    color: @accent4;
+    color: @color5;
 }
 
 @keyframes blink {
@@ -199,11 +193,11 @@ label:focus {
 
 #custom-keyboard,
 #cpu {
-    color: @accent1;
+    color: @color3;
 }
 
 #memory {
-    color: @accent5;
+    color: @color1;
 }
 
 #backlight {
@@ -215,7 +209,7 @@ label:focus {
 }
 
 #network {
-    color: @accent1;
+    color: @color1;
 }
 
 #network.disconnected {
@@ -223,18 +217,18 @@ label:focus {
 }
 
 #pulseaudio {
-    color: @accent3;
+    color: @color5;
 }
 
 #pulseaudio-muted {
-    color: @accent3;
+    color: @color3;
 }
 #wireplumber {
-    color: @accent3;
+    color: @color3;
 }
 
 #wireplumber-muted {
-    color: @accent3;
+    color: @color3;
 }
 
 #pluseaudio-source-muted{
@@ -246,7 +240,7 @@ label:focus {
 }
 
 #disk {
-    color: @accent3;
+    color: @color5;
 }
 #custom-power_profile {
     color: rgb(243, 139, 168);
@@ -258,7 +252,7 @@ label:focus {
 }
 
 #custom-weather {
-    color: @accent2;
+    color: @color3;
 }
 
 #custom-lock {
@@ -266,7 +260,7 @@ label:focus {
 }
 
 #temperature {
-    color: @accent4;
+    color: @color4;
 }
 
 #temperature.critical {
@@ -312,7 +306,7 @@ label:focus {
 }
 
 #custom-language {
-    color: @accent5;
+    color: @color5;
     min-width: 16px;
 }
 

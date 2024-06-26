@@ -1,8 +1,19 @@
 [[language]]
 name = "rust"
-# comment-token = "//"
 auto-format = false
 indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "zig"
+scope = "source.zig"
+injection-regex = "zig"
+file-types = ["zig", "zon"]
+roots = ["build.zig"]
+auto-format = true
+comment-token = "//"
+language-servers = [ "zls" ]
+indent = { tab-width = 4, unit = "    " }
+formatter = { command = "zig" , args = ["fmt", "--stdin"] }
 
 [[language]]
 name = "html"
@@ -15,6 +26,21 @@ name = "css"
 indent = { tab-width = 2, unit = "  " }
 language-servers = ["css-languageserver"]
 formatter = { command = "css-languageserver" , args = ["--stdin"] }
+
+[[language]]
+name = "cpp"
+indent = { tab-width = 4, unit = "  " }
+language-servers = ["clangd"]
+
+[[language]]
+name = "julia"
+scope = "source.julia"
+injection-regex = "julia"
+file-types = ["jl"]
+roots = []
+comment-token = "#"
+language-servers = ["julia"]
+indent = { tab-width = 4, unit = "  " }
 
 [[language]]
 name = "json"
@@ -42,6 +68,14 @@ formatter = { command = "astro-ls", args = ["--stdin"]}
 name = "typescript"
 language-servers = ["deno"]
 
+[language-server.gleam]
+command = "gleam"
+args = ["lsp"]
+
+[language-server.julia]
+command = "julia"
+args = [ "--startup-file=no", "--history-file=no", "-e", "using LanguageServer;using Pkg;import StaticLint;import SymbolServer;env_path = dirname(Pkg.Types.Context().env.project_file);server = LanguageServer.LanguageServerInstance(stdin, stdout, env_path, \"\");server.runlinter = true;run(server);" ]
+
 [language-server.rust]
 command = "rust-analyzer"
 args = [""]
@@ -61,6 +95,10 @@ args = ["--stdio"]
 [language-server.gopls]
 command = "gopls"
 args = [""]
+
+[language-server.clangd]
+command = "clangd" 
+args=["--compile-commands-dir=compile_commands_directory"]
 
 [language-server."astro-ls"]
 command = "astro-ls"
