@@ -1,6 +1,8 @@
 # Hyprland - dotfiles
 **ATTENTION:** Most (if not all) scripts and some configs are made by [JaKooLit](https://github.com/JaKooLit) **huge** credit goes to them for their amazing work. I'd seriously recommend checking them out.
 
+**CAUTION** PYWAL BROKEN, NO LONGER WORKING
+
 ### Screenshots
 ![image](https://github.com/charklie/hyprdots/assets/157241212/3557494d-f83f-4b2a-9963-8eb740e3543e)
 ![image](https://github.com/charklie/hyprdots/assets/157241212/bde6d3a0-d2f9-42a1-9fe7-7738c85a0e5c)
